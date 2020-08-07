@@ -1,6 +1,4 @@
 # GoodReadMeGenerator
-
-  # GoodReadMeGenerator
   
   ## Table of Contents
  -[Description](#description)
