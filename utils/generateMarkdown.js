@@ -22,6 +22,13 @@ function generateMarkdown(data) {
    ![badge](https://img.shields.io/badge/License-${ data.licences }-blue.svg)
    This project is licensed under ${data.licences}
 
+   ## Contribution
+   ### ${data.contributing}
+   ## Tests 
+   ### ${data.tests}
+   ## Questions
+   ### [${data.username} for github](https://github.com/${data.username})
+   ### ${data.email} for email
 `;
 }
 
