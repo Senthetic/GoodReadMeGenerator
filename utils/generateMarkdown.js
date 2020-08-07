@@ -11,6 +11,12 @@ function generateMarkdown(data) {
    -[Tests](#tests)
    -[Questions](#questions)
 
+   ## Description
+   ### ${data.description}
+   ## Install
+   ### ${data.install}
+   ## Usage
+   ### ${data.usage}
 `;
 }
 
