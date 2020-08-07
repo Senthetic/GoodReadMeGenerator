@@ -17,6 +17,11 @@ function generateMarkdown(data) {
    ### ${data.install}
    ## Usage
    ### ${data.usage}
+
+   ## Licenses
+   ![badge](https://img.shields.io/badge/License-${ data.licences }-blue.svg)
+   This project is licensed under ${data.licences}
+
 `;
 }
 
