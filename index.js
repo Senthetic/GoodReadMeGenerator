@@ -66,7 +66,10 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {}
+function init() {
+    const response = await inquirer.prompt(questions);
+    writeToFile("created-readme.md", generateMarkdown(response));
+}
 
 // function call to initialize program
 init();
