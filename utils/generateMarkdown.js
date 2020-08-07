@@ -29,3 +29,4 @@ function generateMarkdown (data) {
  ### ${data.email} for email
 `;
 }
+module.exports = generateMarkdown;
